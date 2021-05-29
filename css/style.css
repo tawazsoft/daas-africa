@@ -526,7 +526,7 @@ table {
 }
 
 .portifolio h1 {
-  font-size: 20px;
+  font-size: 27px;
   color: #707070;
   margin: 20px auto;
   position: relative;
@@ -549,7 +549,7 @@ table {
 }
 
 .portifolio .buttons {
-  padding: 20px 0 40px;
+  padding: 33px 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,7 +567,7 @@ table {
        appearance: none;
   background: none;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 13px;
   cursor: pointer;
   padding: 7px;
   outline: none;
@@ -863,6 +863,7 @@ table {
   border: 1px solid whitesmoke;
   color: whitesmoke;
   outline: none;
+  border-radius: 4px;
 }
 
 .contact .contact-info .email {
@@ -872,15 +873,17 @@ table {
   background: none;
   border: 1px solid whitesmoke;
   color: whitesmoke;
+  border-radius: 4px;
 }
 
 .contact .contact-info .submit {
   width: 35%;
   height: 50px;
-  margin-left: 5%;
   background: none;
   border: 1px solid whitesmoke;
   color: whitesmoke;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .contact-links {
@@ -944,6 +947,10 @@ table {
   width: 100%;
 }
 
+.news h2 {
+  color: white;
+}
+
 .news #mail {
   margin: 20px 40px;
   height: 50px;
@@ -952,6 +959,7 @@ table {
   border-bottom: 2px solid whitesmoke;
   background-color: #858585;
   outline: none;
+  border-radius: 4px;
 }
 
 .news #mail::-webkit-input-placeholder {
@@ -973,6 +981,14 @@ table {
 .news #submit {
   width: 60%;
   height: 50px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.news #submit:hover {
+  background: black;
 }
 
 .news h2 {
@@ -1345,6 +1361,11 @@ table {
   }
   .contact-links a {
     font-size: 18px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: auto 20px;
   }
   .portifolio {
     padding: 10px;
