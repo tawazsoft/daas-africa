@@ -1357,7 +1357,7 @@ table {
     color: whitesmoke;
   }
   .contact-links {
-    padding: unset;
+    padding: 50px;
   }
   .contact-links a {
     font-size: 18px;
