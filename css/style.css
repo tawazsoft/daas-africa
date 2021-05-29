@@ -1003,6 +1003,12 @@ table {
   padding: 20px;
 }
 
+.copyright .desighn {
+  font-style: italic;
+  color: red;
+  font-family: monospace;
+}
+
 .copyright p {
   margin: 20px auto;
   color: white;

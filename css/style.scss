@@ -263,6 +263,11 @@ $clouds: #ecf0f1;
     flex-wrap: wrap;
     background: black;
     padding: 20px;
+    .desighn{
+        font-style: italic;
+        color: red;
+        font-family: monospace;
+    }
     p{
         margin: 20px auto;
         color: white;
