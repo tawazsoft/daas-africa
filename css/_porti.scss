@@ -1,0 +1,168 @@
+
+.portifolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+
+    p{
+        font-size: 24px;
+        font-family: 'Montserrat Regular';
+      }
+  
+      h1{
+        font-size: 20px;
+         color: #707070;
+         margin: 20px auto;
+         position: relative;
+         &::after{
+           height: 1px;width: 70px;background: black;content: "";position: absolute;top: 26px;left: 4px;
+         }
+
+  
+        span{
+          font-weight: bold;
+          color: black;
+          padding-right: 10px;
+        }
+    }
+
+
+    .buttons {
+        padding: 20px 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .button {
+        transition: all .2s ease-in-out;
+        -webkit-appearance: none;
+        border-radius: 100px;
+        font-family: inherit;
+        appearance: none;
+        background: none;
+        font-weight: 700;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 7px;
+        outline: none;
+        opacity: 0.4;
+        border: none;
+        color: #000;
+      }
+      
+      .button:hover,
+      .button.active {
+        opacity: 1;
+      }
+      
+      .grid {
+      display: flex;
+      flex-wrap: wrap;
+
+     
+    
+      }
+      
+      .item {
+        border-radius: 4px;
+        height: 380px;
+        width: 100%;
+        margin: 10px auto;
+        position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+     img{
+      height: 100%;
+       object-fit: cover;
+       width: 100%;
+     }
+
+        .overlay{
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.678);
+            position: absolute;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+
+            img{
+              height: 10%;
+              width: auto;
+            }
+            &:hover{
+
+                opacity: 1;
+                transition: all .35s;
+            }
+            .over-inner{
+                height: 95%;
+                width: 95%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                border: 1px solid white;
+
+                p{
+                    color: white;
+                    font: 18px;
+                    margin: 20px auto;
+                }
+
+                a{
+                    padding: 10px 30px;
+                    border: 1px solid white;
+                    color: white;
+                    text-decoration: none;
+                    &:hover{
+                        background: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+      }
+      
+    
+      
+      .hide { display: none; }
+      .button2{
+        padding: 15px 30px;
+        background: black;
+        color: white;
+        margin: 20px auto;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
