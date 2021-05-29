@@ -693,8 +693,12 @@ table {
 }
 
 .banner {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
+}
+
+.banner .slider1 {
+  height: 90vh;
 }
 
 .about {
