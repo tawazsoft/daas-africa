@@ -858,6 +858,7 @@ table {
   background: no-repeat;
   border: 1px solid whitesmoke;
   color: whitesmoke;
+  outline: none;
 }
 
 .contact .contact-info .email {
