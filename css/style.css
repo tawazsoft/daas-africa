@@ -1021,8 +1021,8 @@ table {
 
 .copyright .desighn {
   font-style: italic;
-  color: red;
-  font-family: monospace;
+  color: white;
+  font-family: 'Montserrat Italic';
 }
 
 .copyright p {
