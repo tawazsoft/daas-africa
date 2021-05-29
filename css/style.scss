@@ -277,6 +277,11 @@ $clouds: #ecf0f1;
 
 @media (min-width: 768px){
 
+    .header .sidebar.active{
+        left: 0;
+        width:300px;
+    }
+
     // banner
 
     .banner{
@@ -390,6 +395,11 @@ $clouds: #ecf0f1;
 
 
 @media (min-width: 1200px) { 
+
+    .header .sidebar.active{
+        left: 0;
+        width:300px;
+    }
 
     .banner{
         height: 100vh;
