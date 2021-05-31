@@ -838,6 +838,22 @@ table {
   color: whitesmoke;
 }
 
+.contact .contact-info #text::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info #text:-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info #text::-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info #text::placeholder {
+  padding: 10px;
+}
+
 .contact .contact-info .username {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -866,6 +882,22 @@ table {
   border-radius: 4px;
 }
 
+.contact .contact-info .username input::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info .username input:-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info .username input::-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info .username input::placeholder {
+  padding: 10px;
+}
+
 .contact .contact-info .email {
   height: 40px;
   width: 90%;
@@ -874,6 +906,22 @@ table {
   border: 1px solid whitesmoke;
   color: whitesmoke;
   border-radius: 4px;
+}
+
+.contact .contact-info .email::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info .email:-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info .email::-ms-input-placeholder {
+  padding: 10px;
+}
+
+.contact .contact-info .email::placeholder {
+  padding: 10px;
 }
 
 .contact .contact-info .submit {
