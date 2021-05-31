@@ -404,6 +404,7 @@ table {
 .slider1 p {
   font-size: 18px;
   margin: 20px auto;
+  line-height: 1.4;
   color: white;
   font-family: 'Montserrat Regular';
 }
