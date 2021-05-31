@@ -58,9 +58,9 @@ $clouds: #ecf0f1;
 
             p{
                 color: white;
-                line-height: 1.2;
+                line-height: 1.4;
                 padding: 10px;
-                font-size: 20px;
+                font-size: 18px;
                 font-family: 'Montserrat Regular';
             }
             .about-links{
@@ -238,6 +238,9 @@ $clouds: #ecf0f1;
 
     h2{
         color: white;
+        font-size: 20px;
+        font-family: 'Montserrat Regular';
+
     }
     #mail {
         margin: 20px 40px;
@@ -305,6 +308,11 @@ $clouds: #ecf0f1;
 .copy-links{
 
     display: flex;
+
+    a{
+        font-size: 18px;
+        font-family: 'Montserrat Regular';
+    }
     
     flex-wrap: wrap;
 }

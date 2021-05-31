@@ -156,7 +156,8 @@ $clouds: #ecf0f1;
   .col {
     margin: 20px auto;
     p{
-      font-size: 24px;
+      font-size: 18px;
+      line-height: 1.4;
       font-family: 'Montserrat Regular';
     }
 
@@ -192,7 +193,7 @@ $clouds: #ecf0f1;
             justify-content: start;
             padding: 1.5em;
             background: black;
-            font-size: 24px;
+            font-size: 18px;
             font-family: 'Montserrat Regular';
             font-weight: bold;
             cursor: pointer;

@@ -247,7 +247,8 @@ table {
 }
 
 .col p {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.4;
   font-family: 'Montserrat Regular';
 }
 
@@ -295,7 +296,7 @@ table {
           justify-content: start;
   padding: 1.5em;
   background: black;
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Montserrat Regular';
   font-weight: bold;
   cursor: pointer;
@@ -521,7 +522,8 @@ table {
 }
 
 .portifolio p {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.4;
   font-family: 'Montserrat Regular';
 }
 
@@ -567,9 +569,9 @@ table {
        appearance: none;
   background: none;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 13px;
   cursor: pointer;
-  padding: 7px;
+  padding: 5px;
   outline: none;
   opacity: 0.4;
   border: none;
@@ -737,9 +739,9 @@ table {
 
 .about .about-text .text-inner p {
   color: white;
-  line-height: 1.2;
+  line-height: 1.4;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Montserrat Regular';
 }
 
@@ -997,6 +999,8 @@ table {
 
 .news h2 {
   color: white;
+  font-size: 20px;
+  font-family: 'Montserrat Regular';
 }
 
 .news #mail {
@@ -1088,6 +1092,11 @@ table {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.copyright .copy-links a {
+  font-size: 18px;
+  font-family: 'Montserrat Regular';
 }
 
 @media (min-width: 768px) {
